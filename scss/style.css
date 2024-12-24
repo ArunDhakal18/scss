@@ -1,0 +1,11 @@
+h1 {
+  color: rgb(131, 243, 106);
+  font-size: xx-large;
+}
+
+.container .box {
+  border: 5px solid rgb(131, 243, 106);
+  background-color: rgb(156, 162, 168);
+  padding: 10px;
+  margin: 20px;
+}/*# sourceMappingURL=style.css.map */

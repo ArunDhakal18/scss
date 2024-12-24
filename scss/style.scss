@@ -1,0 +1,20 @@
+
+$primary:rgb(131, 243, 106);
+
+h1{
+    color: $primary;
+    font-size: xx-large;
+}
+
+@mixin border-color($border, $color) {
+    border: $border solid $color;
+    background-color:rgb(156, 162, 168);
+
+}
+.container {
+    .box {
+        @include border-color(5px, $primary );
+        padding: 10px;
+        margin: 20px;   
+    }
+}
